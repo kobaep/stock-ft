@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_psa_database_Stockdata" modelAttribute="stockdata" path="/stockdatas" versionField="Version" z="7zt4CeaQaYQACDLZ0bTMzvDsPLI=">
+        <field:input field="symbol" id="c_com_psa_database_Stockdata_symbol" z="xxgDxasnGza3wSfYH9abmKT6rPs="/>
+        <field:input field="closeVal" id="c_com_psa_database_Stockdata_closeVal" validationMessageCode="field_invalid_number" z="WpsdUsHDH2EzZvnUXtbQgq4QnoA="/>
+        <field:input field="open1" id="c_com_psa_database_Stockdata_open1" validationMessageCode="field_invalid_number" z="EfpB3tO+dfn5wstW40zFB5bKSis="/>
+        <field:input field="open2" id="c_com_psa_database_Stockdata_open2" validationMessageCode="field_invalid_number" z="nYPAk7g11mGgAeFIqQv17yGBHe0="/>
+        <field:input field="high" id="c_com_psa_database_Stockdata_high" validationMessageCode="field_invalid_number" z="44SSXF25ZCdEvMvJGD1L/AStKGA="/>
+        <field:input field="low" id="c_com_psa_database_Stockdata_low" validationMessageCode="field_invalid_number" z="kZY+YmOcYssnqDGpXQJ0GxsuA8U="/>
+        <field:input field="lastVal" id="c_com_psa_database_Stockdata_lastVal" validationMessageCode="field_invalid_number" z="ksJvajVEjbX4cNvd+Y9w1d2+GHo="/>
+        <field:input field="buyVol" id="c_com_psa_database_Stockdata_buyVol" validationMessageCode="field_invalid_number" z="raupCzBFlhmw25Nyfb+WxjVmH8k="/>
+        <field:input field="sellVol" id="c_com_psa_database_Stockdata_sellVol" validationMessageCode="field_invalid_number" z="LaqJEKKEhIPyBcGZk45lzlXfDv0="/>
+        <field:input field="buyVal" id="c_com_psa_database_Stockdata_buyVal" validationMessageCode="field_invalid_number" z="0+7cLMWlf0B3mMq6EKqv4Huw9DQ="/>
+        <field:input field="sellVal" id="c_com_psa_database_Stockdata_sellVal" validationMessageCode="field_invalid_number" z="/PgdunjXIL5k7XiBjo/W4FcalPk="/>
+        <field:input field="tval" id="c_com_psa_database_Stockdata_tval" validationMessageCode="field_invalid_number" z="m8k1hR/svIoqoq9tI3XgMVn/Ll8="/>
+        <field:input field="tvol" id="c_com_psa_database_Stockdata_tvol" validationMessageCode="field_invalid_number" z="zkDpN1vIpuiyysTx6nHCi4rGWfg="/>
+        <field:input field="askV1" id="c_com_psa_database_Stockdata_askV1" validationMessageCode="field_invalid_number" z="Nmt2KOhWrtJs48nN0L66JPB6l3g="/>
+        <field:input field="askV2" id="c_com_psa_database_Stockdata_askV2" validationMessageCode="field_invalid_number" z="JnOMdZlekFlW/VR4XlBWKH/32FA="/>
+        <field:input field="bidV1" id="c_com_psa_database_Stockdata_bidV1" validationMessageCode="field_invalid_number" z="xj8pqB8oU53+3A+s+eik5VrnSNc="/>
+        <field:input field="bidV2" id="c_com_psa_database_Stockdata_bidV2" validationMessageCode="field_invalid_number" z="QDDboBz7ouMGicdFoPkcXsaNwjI="/>
+    </form:update>
+</div>

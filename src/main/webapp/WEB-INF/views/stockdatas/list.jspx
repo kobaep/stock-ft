@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_psa_database_Stockdata" items="${stockdatas}" z="kDjI3+TkdhmQvXNmI3pec8EblbA=">
+        <table:table data="${stockdatas}" id="l_com_psa_database_Stockdata" path="/stockdatas" z="zsIh5XnuqbzwrPzQbvCfLCacsTc=">
+            <table:column id="c_com_psa_database_Stockdata_symbol" property="symbol" z="J8zUtLwhnW8RrGauzPkQFQyNjXQ="/>
+            <table:column id="c_com_psa_database_Stockdata_closeVal" property="closeVal" z="Zx8F8q0tSVSESmLuaitYK4aynG8="/>
+            <table:column id="c_com_psa_database_Stockdata_open1" property="open1" z="jvJXBB3FwcinN3fIJ+m4MybtBQ8="/>
+            <table:column id="c_com_psa_database_Stockdata_open2" property="open2" z="JRHRo+i22GmCKUu8xOw/GevFU/U="/>
+            <table:column id="c_com_psa_database_Stockdata_high" property="high" z="N3hcdo5tgbxTQacAb6WzWgHbCCo="/>
+            <table:column id="c_com_psa_database_Stockdata_low" property="low" z="ZI/8W+koEKOC718vQTK1NL+n80A="/>
+        </table:table>
+    </page:list>
+</div>

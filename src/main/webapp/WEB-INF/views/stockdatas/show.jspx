@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_psa_database_Stockdata" object="${stockdata}" path="/stockdatas" z="p835YDGZBiW5tdbdNebZ9jZqDqg=">
+        <field:display field="symbol" id="s_com_psa_database_Stockdata_symbol" object="${stockdata}" z="kVfbPSn8PmMG2KwAPxyizExFHf8="/>
+        <field:display field="closeVal" id="s_com_psa_database_Stockdata_closeVal" object="${stockdata}" z="/mRqJTd9dcyFmkcHvEVeq3ydwJE="/>
+        <field:display field="open1" id="s_com_psa_database_Stockdata_open1" object="${stockdata}" z="7HFwpnRog/WjTTft62otrNvSdos="/>
+        <field:display field="open2" id="s_com_psa_database_Stockdata_open2" object="${stockdata}" z="iH/u1frPYZTVdnFcyBaG6Z802SA="/>
+        <field:display field="high" id="s_com_psa_database_Stockdata_high" object="${stockdata}" z="eisP6jkL98rzkZGJosDyzUikTZ4="/>
+        <field:display field="low" id="s_com_psa_database_Stockdata_low" object="${stockdata}" z="r1MTMSQg7u4OJbe92VvzTz2Wj4M="/>
+        <field:display field="lastVal" id="s_com_psa_database_Stockdata_lastVal" object="${stockdata}" z="AbbV5d750auGiwy8li9R3Hd3F/0="/>
+        <field:display field="buyVol" id="s_com_psa_database_Stockdata_buyVol" object="${stockdata}" z="W14sLwMXxcoQy7q0OlU0bDC8cD0="/>
+        <field:display field="sellVol" id="s_com_psa_database_Stockdata_sellVol" object="${stockdata}" z="2aiSjEDDIgpyuoKYPi5ZxYGstsE="/>
+        <field:display field="buyVal" id="s_com_psa_database_Stockdata_buyVal" object="${stockdata}" z="AhTSJXTpTrgl8vMUeaP+5lsjW/I="/>
+        <field:display field="sellVal" id="s_com_psa_database_Stockdata_sellVal" object="${stockdata}" z="BX9SUVgsolPYPObRj0zci9Srrp4="/>
+        <field:display field="tval" id="s_com_psa_database_Stockdata_tval" object="${stockdata}" z="a7ibcLJ1sSIqBIvEJgB5IMoeItc="/>
+        <field:display field="tvol" id="s_com_psa_database_Stockdata_tvol" object="${stockdata}" z="VEUAyaNEGfclOtk0vOtUuIMQ7uk="/>
+        <field:display field="askV1" id="s_com_psa_database_Stockdata_askV1" object="${stockdata}" z="+5jvPz6NPzIpoFmsWkUnKRUTLY4="/>
+        <field:display field="askV2" id="s_com_psa_database_Stockdata_askV2" object="${stockdata}" z="yTRysxWMXJaoOKugBj6KaMv4jI0="/>
+        <field:display field="bidV1" id="s_com_psa_database_Stockdata_bidV1" object="${stockdata}" z="b0Ohm+bfhUcUb5VRQ6B4EDZUCbw="/>
+        <field:display field="bidV2" id="s_com_psa_database_Stockdata_bidV2" object="${stockdata}" z="wXHLd81oO1lLtKK425dr66TN9Ac="/>
+    </page:show>
+</div>

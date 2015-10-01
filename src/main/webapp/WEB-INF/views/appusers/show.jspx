@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_psa_security_AppUser" object="${appuser}" path="/appusers" z="OCYwwplbyhzntenLrDjZnAuQpP4=">
+        <field:display field="username" id="s_com_psa_security_AppUser_username" object="${appuser}" z="WeIyHQLHPAjws862h8nmoG1rLfI="/>
+        <field:display field="password" id="s_com_psa_security_AppUser_password" object="${appuser}" z="D+VuNM4/AQ1dymekvRuolgSWIrc="/>
+        <field:display field="name" id="s_com_psa_security_AppUser_name" object="${appuser}" z="d5IyXLe6inNAJSOBA8PivP4UG0A="/>
+        <field:display field="department" id="s_com_psa_security_AppUser_department" object="${appuser}" z="sSk8f3ht7bNPiKlmqcm8TDL2KRY="/>
+        <field:display field="departmentCode" id="s_com_psa_security_AppUser_departmentCode" object="${appuser}" z="8SwrqZu/gK8P63+s/miAUPi8IPI="/>
+        <field:display field="emailAddress" id="s_com_psa_security_AppUser_emailAddress" object="${appuser}" z="HpHP4hq4KHwghYl2ydAixU1UpMw="/>
+        <field:display field="phoneNumber" id="s_com_psa_security_AppUser_phoneNumber" object="${appuser}" z="mVx5cE9DrvoxB/RWU/6hORL4hf4="/>
+        <field:display field="enabled" id="s_com_psa_security_AppUser_enabled" object="${appuser}" z="QhtwFWAvBnLMgj8/jxZJVDMm+wE="/>
+        <field:display field="roleName" id="s_com_psa_security_AppUser_roleName" object="${appuser}" z="rilekHUipBCpSNToj8LbNVZ/YM0="/>
+    </page:show>
+</div>

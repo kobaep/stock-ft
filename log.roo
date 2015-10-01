@@ -1,0 +1,49 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-09-08 02:11:57
+project --topLevelPackage com.psa --java 7 --projectName stock
+persistence setup --provider HIBERNATE --database DERBY_EMBEDDED 
+entity jpa --class ~.security.AppUser --activeRecord --testAutomatically
+field string --fieldName username --unique 
+field string --fieldName password
+field string --fieldName name
+field string --fieldName department
+field string --fieldName departmentCode
+field string --fieldName emailAddress
+field string --fieldName phoneNumber
+field number --fieldName enabled --type java.lang.Integer --notNull --value 1
+field string --fieldName roleName
+json all --deepSerialize 
+web mvc json setup
+web mvc json all --package ~.web
+web mvc setup
+web mvc all --package ~.web
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2015-09-08 02:16:44
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-09-14 14:15:07
+entity jpa --class ~.database.Stockdata --testAutomatically
+field string --fieldName symbol
+// [failed] field number --fieldName close --type java.lang.Double --value 0
+field number --fieldName closeVal --type java.lang.Double --value 0
+field number --fieldName open1 --type java.lang.Double --value 0
+field number --fieldName open2 --type java.lang.Double --value 0
+field number --fieldName high --type java.lang.Double --value 0
+field number --fieldName low --type java.lang.Double --value 0
+// [failed] field number --fieldName last --type java.lang.Double --value 0
+field number --fieldName lastVal --type java.lang.Double --value 0
+field number --fieldName buyVol --type java.lang.Double --value 0
+field number --fieldName sellVol --type java.lang.Double --value 0
+field number --fieldName buyVal --type java.lang.Double --value 0
+field number --fieldName sellVal --type java.lang.Double --value 0
+field number --fieldName tval --type java.lang.Double --value 0
+field number --fieldName tvol --type java.lang.Double --value 0
+field number --fieldName askV1 --type java.lang.Double --value 0
+field number --fieldName askV2 --type java.lang.Double --value 0
+field number --fieldName bidV1 --type java.lang.Double --value 0
+field number --fieldName bidV2 --type java.lang.Double --value 0
+json all --deepSerialize 
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2015-09-14 14:22:06
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-09-14 14:29:45
+web mvc json all --package ~.web
+web mvc all --package ~.web
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2015-09-14 14:30:59

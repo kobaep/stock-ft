@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_psa_security_AppUser" items="${appusers}" z="vR+kcaTSzRdvFtZhSInUtaRaeJ4=">
+        <table:table data="${appusers}" id="l_com_psa_security_AppUser" path="/appusers" z="pH6ZdwNYXuNmHY+iYIbnMp35/BU=">
+            <table:column id="c_com_psa_security_AppUser_username" property="username" z="fh16zaPiYRtVP8MWjZllJsBzfFY="/>
+            <table:column id="c_com_psa_security_AppUser_password" property="password" z="iVvokHHeZKV6vs/qQ9zMg0vn4xw="/>
+            <table:column id="c_com_psa_security_AppUser_name" property="name" z="WpjrjdLSZEvgJNxAFik2HjCgNs0="/>
+            <table:column id="c_com_psa_security_AppUser_department" property="department" z="kZuFTtuxTpKXJ2N1l/vH3as5I8k="/>
+            <table:column id="c_com_psa_security_AppUser_departmentCode" property="departmentCode" z="40ncjIwUkKKD69xQ4NychoQoEgs="/>
+            <table:column id="c_com_psa_security_AppUser_emailAddress" property="emailAddress" z="TKPdiksxZBjEb8zBj6nfR+DCct0="/>
+        </table:table>
+    </page:list>
+</div>
